@@ -1,0 +1,11 @@
+2023-02-25 11:51:20.886  INFO 2496 --- [main] c.r.m.MsavaliadorcreditoApplicationTests : Starting MsavaliadorcreditoApplicationTests using Java 17.0.4.1 on G15-Ranelho with PID 2496 (started by ranel in C:\workspace\udemy\microservicos\projeto-ms\msavaliadorcredito)
+2023-02-25 11:51:20.887  INFO 2496 --- [main] c.r.m.MsavaliadorcreditoApplicationTests : No active profile set, falling back to 1 default profile: "default"
+2023-02-25 11:51:22.180  INFO 2496 --- [main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=a9fed335-bd48-30d1-94ef-52da49e17042
+2023-02-25 11:51:22.967  INFO 2496 --- [main] o.s.c.openfeign.FeignClientFactoryBean   : For 'msclientes' URL not provided. Will try picking an instance via load-balancing.
+2023-02-25 11:51:23.090  INFO 2496 --- [main] o.s.c.openfeign.FeignClientFactoryBean   : For 'mscartoes' URL not provided. Will try picking an instance via load-balancing.
+2023-02-25 11:51:25.675  INFO 2496 --- [main] DiscoveryClientOptionalArgsConfiguration : Eureka HTTP Client uses RestTemplate.
+2023-02-25 11:51:25.760  WARN 2496 --- [main] iguration$LoadBalancerCaffeineWarnLogger : Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2023-02-25 11:51:25.781  INFO 2496 --- [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 17 endpoint(s) beneath base path '/actuator'
+2023-02-25 11:51:25.845  INFO 2496 --- [main] c.r.m.MsavaliadorcreditoApplicationTests : Started MsavaliadorcreditoApplicationTests in 5.426 seconds (JVM running for 6.259)
+2023-02-25 11:51:26.326  INFO 2496 --- [SpringApplicationShutdownHook] o.s.c.n.eureka.InstanceInfoFactory       : Setting initial instance status as: STARTING
+2023-02-25 11:51:26.328  INFO 2496 --- [SpringApplicationShutdownHook] o.s.c.n.e.s.EurekaServiceRegistry        : Unregistering application MSAVALIADORCREDITO with eureka with status DOWN
